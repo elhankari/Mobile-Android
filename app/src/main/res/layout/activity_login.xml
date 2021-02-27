@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/login"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layer_3"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="5dp"
+        android:padding="0dp"
+        android:src="@drawable/layer_4"/>
+
+    <EditText
+        android:id="@+id/Email"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/shape_02"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="abdelilah.azyat@gmail.com"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:textColorHint="#C8C8C8"
+        android:textSize="16sp"
+        android:layout_weight="0.03" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#fff" />
+
+    <EditText
+        android:textColor="#FFFFFF"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/shape_03"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="*  *  *  *  *  *  *  *  *  *  *  *  *  *"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:textColorHint="#C8C8C8"
+        android:textSize="16sp"
+        android:layout_weight="0.03"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#fff" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape"
+        android:bottomLeftRadius="100dp"
+        android:bottomRightRadius="100dp"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="login"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:topLeftRadius="100dp"
+        android:topRightRadius="100dp"
+
+        />
+
+    <TextView
+        android:id="@+id/createText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="No account yet? Sign up here"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="13sp" />
+</LinearLayout>
